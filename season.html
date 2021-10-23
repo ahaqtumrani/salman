@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Salman Khan Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="short icon" href="images/Abdul.jpg">
+  <link rel="stylesheet" href="lightslider.css">
+  <script src="jquery-3.3.1.min.js"></script>
+   <script src="lightslider.js"></script>
+  
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">
+            <img class="logo" src="images/beinghuman.jpg" alt="">
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn" >
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="being.html">Being human</a></li>
+            <li><a href="shows.html"> Tv shows</a></li>
+            <li><a href="NEXT1.html">Movies</a></li>
+           
+
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourite Movies">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+    <section id="main">
+        <div class="categories">
+            <div class="small-container">
+              <div class="row">
+        <div style="margin-top: 100px; margin-bottom: 100px;" class="col-3">
+         <h1 style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CoNKwSSIwpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h1> 
+        </div>
+        <p ><strong >Big Boss Season 14 </strong> <br>Bigg Boss: "Ab Scene Paltega", also known as Bigg Boss 14, is fourteenth season of the Indian reality TV series Bigg Boss. It premiered on 3 October 2020 on Colors.[1] Salman Khan hosted the season for the eleventh time.[2] The Grand Finale of the show took place on 21st February 2021 and Rubina Dilaik was announced as the winner, while Rahul Vaidya as the runner-up.[3]</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    
+
+
+    <div class="demo">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Our Email</h3>
+                        <p>Abdulhtumrani@gmail.com</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/beinghuman.jpg" width="120px" alt="">
+                        <p>Our Purpose is to entertain the public and make them happy.</p>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">Copyright-2021 Abdul Haq</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+          $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+    </script>
+</body>
+</html>
